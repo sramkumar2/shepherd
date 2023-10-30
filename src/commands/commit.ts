@@ -10,7 +10,7 @@ export default async (context: IMigrationContext, options: any) => {
       await adapter.commitRepo(repo, options.noVerify);
       
       spinner.succeed('Changes committed');
-    } catch (e) {
+    } catch (e: any) {
       logger.error(e);
       spinner.fail('Failed to commit changes');
     }

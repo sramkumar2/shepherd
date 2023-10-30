@@ -1,3 +1,30 @@
+# [2.1.0](https://github.com/NerdWalletOSS/shepherd/compare/v2.0.1...v2.1.0) (2023-10-03)
+
+
+### Features
+
+* **workflow:** use semantic-pr-check in favor of semantic pull request app ([#622](https://github.com/NerdWalletOSS/shepherd/issues/622)) ([e780137](https://github.com/NerdWalletOSS/shepherd/commit/e780137e184172d540066b196e1fdec25e999042))
+
+## [2.0.1](https://github.com/NerdWalletOSS/shepherd/compare/v2.0.0...v2.0.1) (2023-10-03)
+
+### Bug Fixes
+
+- **lockfiles:** add lock files. ([#619](https://github.com/NerdWalletOSS/shepherd/issues/619)) ([ea27c42](https://github.com/NerdWalletOSS/shepherd/commit/ea27c4204d82ea07ece587f021c81dd65d1f5166))
+
+# [2.0.0](https://github.com/NerdWalletOSS/shepherd/compare/v1.16.0...v2.0.0) (2023-10-02)
+
+### Bug Fixes
+
+- **token:** update token name. ([#614](https://github.com/NerdWalletOSS/shepherd/issues/614)) ([70a52cd](https://github.com/NerdWalletOSS/shepherd/commit/70a52cd17571656001e45f681a45f145cb6565f5))
+
+- BREAKING CHANGE: substantial dep mgmt effort - drop support for EOL Node versions (#613) ([4329f31](https://github.com/NerdWalletOSS/shepherd/commit/4329f316a6809e4b40ab6b0ba0344ee99f6b7d93)), closes [#613](https://github.com/NerdWalletOSS/shepherd/issues/613)
+
+### BREAKING CHANGES
+
+- substantial dep mgmt effort - drop support for Node v12, 14, 16
+
+- 2.0.0
+
 # [1.16.0](https://github.com/NerdWalletOSS/shepherd/compare/v1.15.5...v1.16.0) (2021-12-03)
 
 ### Bug Fixes

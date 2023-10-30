@@ -9,7 +9,7 @@ export default async (context: IMigrationContext, options: any) => {
     try {
       await adapter.pushRepo(repo, options.force, options.noVerify);
       spinner.succeed('Changes pushed');
-    } catch (e) {
+    } catch (e: any) {
       logger.error(e);
       spinner.fail('Failed to push changes');
     }
